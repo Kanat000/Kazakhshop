@@ -1,0 +1,39 @@
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: lightgrey;
+    color: black;
+    width: 100%;
+}
+.info{
+    padding-top: 30%;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 25px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 30px;
+}
+.socials a:hover i{
+    color: black;
+    opacity: 0.6;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+}
+.linkk a:hover{
+    color: black;
+    opacity: 0.6;
+}

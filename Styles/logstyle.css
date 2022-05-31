@@ -1,0 +1,408 @@
+  html,body{
+     width: 100%;
+
+
+    }
+    *{
+            font-size: 0.9vw;
+      }
+     body{
+      background-color: #ebebeb;
+     
+    }
+    .container{
+      margin: auto;
+      border: 1px solid #b2b2b2;
+      width: 35%;
+      background-color: white;
+      margin-top:10vh;
+        padding: 0;
+    }
+    .cntpad{
+      padding:0vh 2vh 0vh 2vh;
+    }
+    .form{
+      width: 100%;
+      padding-left: 5vh;
+      padding-right: 5vh;
+      margin: 0px;
+      font-size: 1vw;
+    }
+    .sing{
+      padding:2.5vh 0vh 2.5vh 0vh;
+      font-size: 1.3vw;
+      font-family: 'Electrolize', sans-serif;
+      cursor: pointer;
+    }
+    .sing:hover{
+      color: #b5b5b5;
+      font-weight: 500;
+    }
+    .line{
+      height: 0.15vh;
+        border: 0.1vh solid black;
+        width: 50%;
+        margin-left: 50%;
+    }
+    
+    .deviderspace{
+      margin-top:2vh;
+
+    }
+     .deviderspacelog{
+      margin-top:4vh;
+
+    }
+
+    .agreeDevider{
+      margin-top: 5vh;
+    }
+    .inputStyle{
+      margin-left:4vh;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      width: 100%;
+      padding: 1.2vh;
+    }
+    .isFalse{
+      margin-left:4vh;
+      border: 1px solid red;
+      border-radius: 5px;
+      width: 100%;
+      padding: 1.2vh;
+
+    }
+  
+    .form-control{
+      flex-wrap: wrap;
+    }
+   .betwenspace{
+    margin-left: 1vh;
+   }
+   .btnPlace{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    padding: 0vh;
+
+   }
+   .btnPlacelog{
+    margin-top: 1vh;
+
+    padding: 0vh;
+
+   }
+   .agree{
+    margin-left: 1vh;
+    margin-top: 2vh;
+    color: #8a8a8a;
+   }
+   .btn{
+    padding: 1.5vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 1.1vw;
+    background-color: #192B6B;
+   }
+   .checkbox{
+    width: 3vh;
+    height: 3vh;
+   }
+   hr{
+    padding: 0px;
+    margin: 0px;
+   }
+
+   label{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+     padding: 0.9vh;
+     text-align: right;
+     font-size: 1vw;
+   }
+   .fs{
+    margin-top: 4vh; 
+   }
+
+   .forgotpass{
+    width: 100%;
+    margin-bottom: 4vh;
+    
+    padding: 1vw;
+   
+    text-align: center;
+    
+
+   }
+   .forgotpass a{
+    font-size: 1.2vw;
+    color: #A4A4A4;
+      font-family: 'Roboto', sans-serif;
+   }
+   @media(max-width: 900px){
+    .container{
+      
+      width: 39%;
+      
+    }
+    .agree{
+      font-size: 1.2vw;
+    }
+   }
+   @media(max-width: 768px){
+    .container{
+      
+      width: 70%;
+    
+    }
+     .sing{
+      font-size: 2.5vw;
+    }
+
+   label{
+  
+    font-size: 2vw;
+   }
+   .fs{
+    margin-top: 0;
+   }
+   .form{
+    margin-top: 5vh;
+   }
+
+  
+   .inputStyle{
+      
+      font-size: 2vw;
+    }
+  
+   .checkbox{
+    width: 3vw;
+    height: 3vw;
+   }
+    
+   .agree{
+    font-size: 2vw;
+   }
+   .btn{
+
+    font-size: 2vw;
+   }
+   .forgotpass a{
+    font-size: 1.5vw;
+    color: #A4A4A4;
+      font-family: 'Roboto', sans-serif;
+   }
+  
+  
+   }
+   @media(max-width: 620px){
+    .container{
+      
+      width: 50%;
+      
+    }
+  
+  
+   }
+    @media(max-width: 576px){
+    .container{
+      
+      width: 100%;
+      margin: 0;
+      
+    }
+    .head{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+    .sing{
+      font-size: 3.5vw;
+    }
+
+   label{
+    text-align: left;
+    font-size: 3vw;
+   }
+   .fs{
+    margin-top: 0;
+   }
+   .form{
+    margin-top: 5vh;
+    padding: 0;
+   }
+   .inputStyle{
+      margin-left:0vh;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      width: 100%;
+      padding: 2vw;
+      font-size: 3vw;
+    }
+  
+   .checkblock,.agreeblock{
+    float: left;
+   }
+   .checkbox{
+    width: 3.5vw;
+    height: 3.5vw;
+   }
+    .checkblock{
+     width: 4%;
+   }
+   .agreeblock{
+     width: 90%;
+     margin-left: 3vw;
+
+   }
+   .agree{
+    font-size: 2.5vw;
+   }
+   .btn{
+    padding: 2vw;
+    font-size: 3vw;
+   }
+   .forgotpass{
+    padding: 3vw;
+   }
+   .forgotpass a{
+    font-size: 2.5vw;
+    color: #A4A4A4;
+      font-family: 'Roboto', sans-serif;
+   }
+   }
+   @media(max-width: 390px){
+    .container{
+      margin: 0;
+      width: 100%;
+      padding: 0;
+      
+    }
+
+    .head{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+    .sing{
+      font-size: 3.5vw;
+    }
+
+   label{
+    text-align: left;
+    font-size: 3vw;
+   }
+   .fs{
+    margin-top: 0;
+   }
+   .form{
+    margin-top: 5vw;
+    padding: 0;
+   }
+   .inputStyle{
+      margin-left:0vh;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      width: 100%;
+      padding: 2vh;
+      font-size: 3vw;
+    }
+  
+   .checkblock,.agreeblock{
+    float: left;
+   }
+   .checkbox{
+    width: 3.5vw;
+    height: 3.5vw;
+   }
+     .checkblock{
+     width: 4%;
+   }
+   .agreeblock{
+     width: 90%;
+     margin-left: 3vw;
+
+   }
+   .agree{
+    font-size: 3vw;
+   }
+   .btn{
+    padding: 2vh;
+    font-size: 3vw;
+   }
+    .forgotpass{
+    padding: 3vw;
+   }
+   .forgotpass a{
+    font-size: 3vw;
+    color: #A4A4A4;
+      font-family: 'Roboto', sans-serif;
+   }
+   }
+   @media(max-width: 290px){
+    .container{
+      
+      width: 100%;
+      
+    }
+    .head{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+    .sing{
+      font-size: 3.5vw;
+    }
+
+   label{
+    text-align: left;
+    font-size: 3vw;
+   }
+   .fs{
+    margin-top: 0;
+   }
+   .form{
+    margin-top: 5vh;
+   }
+   .inputStyle{
+      margin-left:0vh;
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      width: 100%;
+      padding: 2vh;
+      font-size: 3vw;
+    }
+  
+   .checkblock,.agreeblock{
+    float: left;
+   }
+   .checkbox{
+    width: 3.5vh;
+    height: 3.5vh;
+   }
+   .checkblock{
+     width: 4%;
+   }
+   .agreeblock{
+     width: 90%;
+     margin-left: 3vh;
+
+   }
+   .agree{
+    font-size: 3.6vw;
+   }
+
+   .btn{
+    padding: 2vh;
+    font-size: 3vw;
+   }
+    .forgotpass{
+    padding: 3vw;
+   }
+   .forgotpass a{
+    font-size: 3.5vw;
+    color: #A4A4A4;
+      font-family: 'Roboto', sans-serif;
+   }
+   }

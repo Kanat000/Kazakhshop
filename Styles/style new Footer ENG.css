@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.map{
+   display: flex;
+   justify-content: center;
+   padding: 70px; 
+}
+
+footer{
+    background-color: rgb(50, 50, 50);
+    margin-top: 10vh;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+	color:#bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col h4{
+    color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-nav-inner{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    padding-top: 65px;
+    line-height: 2.5;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 10px;
+}
+.footer-col .social-links a{
+	display: grid;
+	height: 10vh;
+	width: 10vh;
+    align-items: center;
+    justify-content: centers;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-col p a{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+.footer-col p a:hover{
+    color: white;
+}
+.inf{
+    line-height: 2;
+}

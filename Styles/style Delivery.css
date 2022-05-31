@@ -1,0 +1,101 @@
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 100%;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+}
+.central-menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    height: 60px;
+}
+.central-menu a{
+    color: black;
+    font-size: 17px;
+    margin: 0 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.central-menu a:hover{
+    color: black;
+    opacity: 0.6;
+}
+.logotype{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown{
+    margin-bottom: -8px;
+}
+.dropdown ul li{
+    padding: 0;
+    margin: 0;
+}
+.dropdown ul {
+    padding: 0;
+    margin: 0;
+}
+.reserve a:hover{
+    color: white;
+    opacity: 0.6;
+}
+main{
+    padding-top: 120px;
+}
+.title{
+    text-align: center;
+}
+p{
+    font-weight: 100;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: lightgrey;
+    color: black;
+    width: 100%;
+}
+.info{
+    padding-top: 30%;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 25px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 30px;
+}
+.socials a:hover i{
+    color: black;
+    opacity: 0.6;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+}
+.linkk a:hover{
+    color: black;
+    opacity: 0.6;
+}
+.dropdown-item{
+    margin: 0;
+    padding: 0;
+}

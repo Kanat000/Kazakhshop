@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.f1{
+    font-size: 20px;
+}
+.f2{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.side{
+    width: 200px;
+    margin: 20px;
+}
+.menu a{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #666;
+}
+.menu a:hover{
+    background-color: #666;
+}
